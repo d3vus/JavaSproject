@@ -24,7 +24,7 @@ btns.forEach(function(btn){
             value.style.color = "green";
         }
         if (count == 0){
-            value.style.color = "#222"
+            value.style.color = "#222";
         }
         value.textContent = count;
     });
